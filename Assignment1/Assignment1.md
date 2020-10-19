@@ -2,4 +2,4 @@ This is Text
 # This is Text
 ## This is Text 
 
-![Assignment1](/images/Assignment1.jpeg)
+![Assignment1.c](/images/Assignment1.jpeg bordered)
