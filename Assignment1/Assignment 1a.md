@@ -15,3 +15,7 @@ Design Challenges :
 -Memory space - multiple images stored in camera Number depend on amount of memory and bits used per image.
 -Security - Anyone can access the files.
 -Design optimisation.
+
+
+
+![Assignment1a](/Assignment1/images/Assignment1a.jpeg)
