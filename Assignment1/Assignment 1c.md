@@ -1,1 +1,1 @@
-![Assignment 1c](/Assignment1/images/Assignment1c.jpeg)
+![Assignment 1c](/Assignment1/images/Assignment 1c.jpeg)
