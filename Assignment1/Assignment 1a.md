@@ -1,8 +1,8 @@
 
 An example of Embedded System is a digiat camera. The basic functions of digital camera are :
--Capture images.
--Stores images in digital format .
--Download images to Computer System.
+-Capture images ,
+-Stores images in digital format ,
+-Download images to Computer System,
 
 The advantage of didgital camera is there no need of film. The images are stored in the the form of data in the memory.
  
