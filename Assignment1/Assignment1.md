@@ -1,4 +1,4 @@
-![Assignment1.c](/Assignment1/images/Assignment1.jpeg){:.thumbnail.bordered}
+![Assignment1.c](/Assignment1/images/Assignment1.jpeg bordered)
 
 <img src="/Assignment1/images/Assignment1.jpeg"
      alt="Assignment1"
