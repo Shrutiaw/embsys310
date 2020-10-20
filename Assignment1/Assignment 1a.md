@@ -19,4 +19,4 @@ Design Challenges :
 
 
 
-![Assignment1a](/images/Assignment1a.jpeg)
+![Assignment1a](/Assignment1/images/Assignment1a.jpeg)
