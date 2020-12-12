@@ -18,7 +18,7 @@ b) What are the values in R0 & R1 when swap_pointer() is called?
 -The values of R0 and R1 after the swap_pointer is called are 
 
 
-![R0 , R1](/Assignment5/Images/R0 , R1.jpg)
+![R0,R1](/Assignment5/Images/R0,R1.jpg)
 
 
 c) Share a screen shot of the local variables inside of “main” after the function swap_pointer() returns showing the values of the pointers and what they are pointing to
