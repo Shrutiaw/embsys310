@@ -9,11 +9,11 @@ b) What are the values in R0 & R1 when swap_pointer() is called?
 
 -Before swap
 
-![Before Swap](/Assignment5/Images/Before Swap.jpg)
+![Before](/Assignment5/Images/Before.jpg)
 
 -After Swap
 
-![After Swap](/Assignment5/Images/After Swap.jpg)
+![After](/Assignment5/Images/After.jpg)
 
 -The values of R0 and R1 after the swap_pointer is called are 
 
