@@ -44,6 +44,7 @@ f) Run your program on the board and capture a snapshot image of the output from
 -
 
 
+
 ![divAsm](/Assignment5/Images/divAsm.jpg)
 
 
@@ -56,7 +57,10 @@ a. It takes as input two variables of char data type each and swaps the two char
 -
 b. Add a comment for every statement in your assembly function code.
 
+-
 
+
+![swap_char_asm](/Assignment5/Images/swap_char_asm.jpg)
 
 
 

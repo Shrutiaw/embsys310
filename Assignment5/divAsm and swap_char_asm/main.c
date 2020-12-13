@@ -140,9 +140,18 @@ int main(void)
         HAL_Delay(1000);
     }
     
+    // Character and pointers swapping
+    char c1 = 'a';
+    char c2 = 'b';
+ 
+    RETAILMSG(1,("\n Before swap:\t char1=%c and char2=%c ", c1 , c2));
     
+    //Swapping characters
+    swap_char_asm(&c1, &c2);
     
+    RETAILMSG(1,("\n After swap:\t char1=%c and char2=%c ", c1 , c2));
     
+
     // Testing fah_to_cel_asm
     int tempC;
     PrintString("\n********** Fahrenheit to Celsius **********\n");
@@ -159,6 +168,23 @@ int main(void)
 }
 
 #if 1
+
+ void swap_char_asm(char *char1, char *char2)
+{
+    asm("LDRB R2, [R0]\n" // Load SP memory  location of R0 into R2
+      "LDRB R3, [R1]\n" // Load SP memory  location of R1 into R3
+      "STRB R3, [R0]\n" // store R3 into SP memory location of R0
+       "STRB R2, [R1]\n" ); // store R2 into SP memory location of R1          
+}
+        //void swap_ptr_asm(int **px , int**py);
+//{
+            
+   // asm("LDR R2, [R0]\n" // Load SP memory  location of R0 into R2
+     //   "LDR R3, [R1]\n" // Load SP memory  location of R1 into R3
+     //   "STR R3, [R0]\n" // store R3 into SP memory location of R0
+     //   "STR R2, [R1]\n" // store R2 into SP memory location of R1
+     //       );
+    //    }
       
         
 int fah_to_cel_asm(int temperature)
