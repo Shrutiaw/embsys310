@@ -41,7 +41,10 @@ d) Add a comment for every statement in your assembly function code.
 e) Invoke divAsm() inside of your main function in main.c
 f) Run your program on the board and capture a snapshot image of the output from TeraTerm showing the result of the divAsm.
 
+-
 
+
+![divAsm()](/Assignment5/Images/divasm().jpg)
 
 
 
@@ -52,3 +55,9 @@ a. It takes as input two variables of char data type each and swaps the two char
 
 -
 b. Add a comment for every statement in your assembly function code.
+
+
+
+
+
+
