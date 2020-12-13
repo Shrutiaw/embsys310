@@ -44,7 +44,7 @@ f) Run your program on the board and capture a snapshot image of the output from
 -
 
 
-![divAsm()](/Assignment5/Images/divasm().jpg)
+![divAsm](/Assignment5/Images/divAsm.jpg)
 
 
 
