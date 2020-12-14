@@ -43,8 +43,8 @@ int main()
     // GPIOB Base Address: 0x48000400
     // Address offset: 0x00
     // Set bit[29:28] to 0x01  so --> 0x400 // To enable PB14 as output
-    GPIOA->MODER &= ~GPIO_MODER_MODE5_1;
-    GPIOA->MODER |= GPIO_MODER_MODE5_0;
+    GPIOB->MODER &= ~GPIO_MODER_MODE5_1;
+    GPIOB->MODER |= GPIO_MODER_MODE5_0;
     
     // GPIO port output data register (GPIOx_ODR) (x = A..E and H)
     // GPIOB Base Address: 0x48000400
